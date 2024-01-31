@@ -124,6 +124,7 @@ class AutoGenWorkFlowManager:
             agent_spec.config.code_execution_config = code_execution_config
 
         if agent_spec.type == "assistant":
+            agent_spec.config.code_execution_config = {"work_dir": None, "use_docker": False}
             agent_spec.config.system_message = (
                 autogen.AssistantAgent.DEFAULT_SYSTEM_MESSAGE
                 + "\n\n"

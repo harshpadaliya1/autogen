@@ -1058,7 +1058,7 @@ export const AgentFlowSpecView = ({
                 [
                   { label: "NEVER", value: "NEVER" },
                   // { label: "TERMINATE", value: "TERMINATE" },
-                  // { label: "ALWAYS", value: "ALWAYS" },
+                  { label: "ALWAYS", value: "ALWAYS" },
                 ] as any
               }
             />

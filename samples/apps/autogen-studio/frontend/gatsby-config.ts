@@ -5,7 +5,7 @@ require("dotenv").config({
 });
 
 const config: GatsbyConfig = {
-  pathPrefix: `${process.env.PREFIX_PATH_VALUE}`,
+  pathPrefix: '',
   siteMetadata: {
     title: `AutoGen Studio [Beta]`,
     description: `Build Multi-Agent Apps`,
